@@ -17,7 +17,6 @@ public class SettingsController {
 
     public void btnAddDiscountOnAction(ActionEvent actionEvent) {
     }
-
     public void btnChangePasswordOnAction(ActionEvent actionEvent) {
     }
 
