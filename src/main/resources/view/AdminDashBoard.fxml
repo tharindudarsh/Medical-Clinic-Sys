@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
-
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.controller.AdminDashBoardController">
    <children>
-      <Label layoutX="260.0" layoutY="50.0" text="Admin Dash Board" />
+      <Label layoutX="130.0" layoutY="38.0" text="MEDICARE CHANNELING CENTERR ">
+         <font>
+            <Font name="Cantarell Extra Bold" size="23.0" />
+         </font></Label>
+      <Label layoutX="195.0" layoutY="93.0" text="[ ADMINISTRATOR ]">
+         <font>
+            <Font name="Cantarell Extra Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnProfileManagement" layoutX="226.0" layoutY="171.0" mnemonicParsing="false" onAction="#btnProfileManagementOnAction" prefHeight="46.0" prefWidth="149.0" style="-fx-background-color: BLUE;" text="Profile Management" textFill="WHITE" />
+      <Button fx:id="btnViewRecords" layoutX="226.0" layoutY="240.0" mnemonicParsing="false" onAction="#btnViewRecordsOnAction" prefHeight="46.0" prefWidth="149.0" style="-fx-background-color: BLUE;" text="View Records" textFill="WHITE" />
+      <Button fx:id="btnSetting" layoutX="226.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnSettingOnAction" prefHeight="46.0" prefWidth="149.0" style="-fx-background-color: blue;" text="Setting" textFill="WHITE" />
    </children>
 </AnchorPane>
